@@ -14,10 +14,12 @@ public class Main {
 				if (sb.toString().matches(sb.reverse().toString()) && tmp > max) {
 					max = tmp;					
 				}
-			}
+			}		
+			
 
 		}
-		System.out.println(max);
+		
+		System.out.println("max polyndrom="+max);
 	}
 
 }
